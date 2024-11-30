@@ -1,0 +1,115 @@
+@media (max-width: 680px) {
+    /* Main Sidebar */
+    .sidebar-container {
+      /* width: 20% !important;  */
+      height: 100%;
+    }
+  
+    /* Top Section */
+    .sidebar-top {
+      gap: 2rem; /* Adjust spacing for smaller screens */
+    }
+    .menu-button {
+      
+    }
+    .menu-icon {
+      width: 1.5rem;
+    }
+  
+    /* New Chat */
+    .new-chat-button {
+      gap: 0.5rem;
+      padding: 1rem;
+    }
+    .plus-icon {
+      /* width: 1.25rem; */
+    }
+    .new-chat-text {
+      font-size: 1rem;
+    }
+  
+    /* Recent Section */
+    .recent-header {
+      font-size: 0.9rem;
+      padding-left: 20px;
+    }
+    .recent-button {
+      gap: 0.5rem;
+    }
+    .message-icon {
+      width: 1.5rem;
+    }
+    .recent-text {
+      font-size: 0.8rem;
+    }
+  
+    /* Bottom Section */
+    .sidebar-bottom {
+      gap: 1rem;
+    }
+  }
+  
+
+  @media (max-width: 680px) {
+    /* Main Container */
+    .main-container {
+      padding: 1rem;
+    }
+  
+    /* Header */
+    .main-header {
+      display: flex;
+      flex-direction: row;
+      /* gap: 0.5rem; */
+    }
+    .app-title {
+      font-size: 1.25rem;
+    }
+    .user-icon {
+      width: 2rem;
+    }
+  
+    /* Content */
+    .main-content {
+      width: 100%;
+    }
+    .greeting-main,
+    .greeting-sub {
+      font-size: 2rem;
+    }
+  
+    /* Cards Section */
+    .cards-container {
+        display: none;
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    /* Input Section */
+    .input-section {
+      width: 100%;
+      gap: 0.5rem;
+    }
+    .input-field {
+      font-size: 0.875rem;
+    }
+
+  }
+  
+
+  @media (max-width: 680px) {
+    /* BelowIcons container */
+    .below-icons-container {
+      flex-direction: row; /* Maintain row alignment */
+      gap: 0.5rem;
+    }
+  
+    .below-icon {
+      width: 1.5rem; /* Adjust icon size for smaller screens */
+    }
+  
+    .below-icons-text {
+      font-size: 0.875rem; /* Slightly smaller font size */
+    }
+  }
+  
